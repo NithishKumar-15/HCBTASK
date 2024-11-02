@@ -6,7 +6,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 export const Header = () => {
   return (
     <Box>
-      <Grid container sx={{ height: "70px", backgroundColor: "#222831", alignItems: "center", borderTopRightRadius: "16px", borderTopLeftRadius: "16px" }}>
+      <Grid container sx={{ height: "70px", backgroundColor: "black", alignItems: "center", borderTopRightRadius: "0.375rem", borderTopLeftRadius: "0.375rem" }}>
         <Grid size={3} sx={{ justifyContent: "center" }}>
           <img src='https://www.flaticon.com/media/dist/min/img/logos/flaticon-color-negative.svg' className='block mx-auto' alt="...icon"></img>
         </Grid>

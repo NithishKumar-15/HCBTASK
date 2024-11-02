@@ -4,7 +4,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
 
 export const DiscoverLuxuryZip = () => {
     return (
-        <div className='bg-black pt-8 text-white'>
+        <div className='bg-slate-900 pt-8 text-white'>
             <h1 className='text-center text-5xl'>DISCOVER LUXURY ZIP</h1>
             <Grid container sx={{ height: "450px", marginTop: '60px' }} spacing={2}>
                 <Grid size={4} sx={{
@@ -22,7 +22,7 @@ export const DiscoverLuxuryZip = () => {
                 </Grid>
 
                 <Grid size={4} sx={{ height: "98%" }}>
-                    <div className='bg-discoverluxuryimg1 h-2/4	bg-cover'>
+                    <div className='bg-discoverluxurybgimg1 h-2/4 bg-cover'>
                         <div className='h-3/5'>
 
                         </div>
@@ -33,7 +33,7 @@ export const DiscoverLuxuryZip = () => {
                         </div>
                     </div>
 
-                    <div className='h-2/4 bg-discoverluxuryimg2 bg-cover mt-2'>
+                    <div className='h-2/4 bg-discoverluxurybgimg2 bg-cover mt-2'>
                         <div className='h-3/5'>
 
                         </div>

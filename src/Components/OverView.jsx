@@ -5,7 +5,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
 
 export const OverView = () => {
     return (
-        <div className='bg-black'>
+        <div className='bg-slate-900'>
             <Container sx={{height:"700px"}}>
                 <Grid container sx={{height:"100%"}}>
                     <Grid size={6} sx={{height:"50%",display:"flex",color:"white",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>

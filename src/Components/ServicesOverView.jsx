@@ -5,7 +5,7 @@ import Grid from '@mui/material/Grid2';
 
 export const ServicesOverView = () => {
     return (
-        <div className='bg-black pt-20'>
+        <div className='bg-slate-900 pt-20'>
             <Container sx={{ height: "500px" }}>
                 <h1 className='text-white text-5xl text-center'>SERVICE OVERVIEW</h1>
                 <Grid container spacing={5} sx={{ alignItems: "center", justifyContent: "center", marginTop: "50px", border: "1px solid rgb(152, 144, 144)", height: "60%", borderRadius: "145px" }}>
